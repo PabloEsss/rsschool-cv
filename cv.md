@@ -34,7 +34,7 @@ Brest State Technical University
 * Economy in industry 2010 - 2012
 
 ## **LANGUAGE:** ##
-Strong side, I give a table:
+Strong side, I give a table: 
 
 Language    | How long study                            | Were applied
 ------------|:-----------------------------------------:| --------------
