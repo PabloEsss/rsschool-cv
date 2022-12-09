@@ -27,3 +27,20 @@ function multiply(a, b){
 }
 multiply(2,2);
 ```
+
+## **EDUCATION:** ##
+Brest State Technical University
+* Civil Engineering 2007 - 2012
+* Economy in industry 2010 - 2012
+
+## **LANGUAGE:** ##
+Strong side, I give a table
+
+Language    | How long study                            | Were applied
+------------|:-----------------------------------------:| --------------
+Russian     | Since 2 y.o.                              | Ordinary life
+Belarussian | After 2020 more...                        | In social media
+English     | 11 years in school + 2 years in University| When I call to my friends John and Leslie to Wisconsin
+Spanish     | 5 years in school + >820 days in Duolingo | When I worked in Venezuela
+Polish      | 6 month to get Karta Polaka               | In Biedronka
+Ukranian    | Every time when I go to Ukraine           | SLAVA UKRAINE!
