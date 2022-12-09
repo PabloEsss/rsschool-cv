@@ -1,0 +1,8 @@
+# Pavel Shcharbak #
+![myFoto](/rsschool-cv/img/my%20foto.png "Моё фото")
+## **Contacts:** ##
+
+* **Phone:** +375 29 727 41 08
+* **MAIL:** shcharbakpavel@gmail.com
+* [TELEGRAM](https://t.me/Pablo_orabocsE)
+* [INSTAGRAM](https://www.instagram.com/zametki_illusionista/)
