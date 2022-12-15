@@ -7,10 +7,6 @@
     border: 1px solid green;
 }
 
-.footer {
-    border: 1px solid blue;
-}
-
 body {
     min-height: 100vh;
     margin: 0;
@@ -78,3 +74,22 @@ td, th {
     background: maroon; /* Цвет фона ячеек */
     padding: 5px; /* Поля вокруг текста */
    }
+
+.footer {
+    border: 1px solid blue;
+    background-color: chartreuse;
+    }
+
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+    
+.footer__link {
+    padding: 0 20px;
+    line-height: 30px;
+    color:darkorange ;
+    text-decoration: none;
+}
