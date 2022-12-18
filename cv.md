@@ -1,5 +1,5 @@
 # Pavel Shcharbak #
-![myFoto](/rsschool-cv/img/my%20foto.png "Моё фото")
+![myFoto](/rsschool-cv/assets/img/my%20foto.png"Моё фото")
 ## **Contacts:** ##
 
 * **Phone:** +375 29 727 41 08
