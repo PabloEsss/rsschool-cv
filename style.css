@@ -21,17 +21,16 @@ h1 {
     font-weight: 500;
     font-size: 40px;
     line-height: 53px;
-  }
+}
 
-
-  h2 {
+h2 {
     color: white;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 40px;
-  }
+}
 
 .header {
     border: 1px solid black;
@@ -43,22 +42,14 @@ h1 {
     background-color: #ebba83;
 }
 
-/* .container {
-    max-width: 1440px;
-    margin: 0 auto;
-} */
-
 .navigation__list {
     display: flex;
-    /* justify-content: flex-end; */
     align-items: center;
     justify-content: space-around;
     list-style: none;
-
 }
 
 .navigation__link {
-
     font-family: "Inika";
     font-style: normal;
     font-weight: 500;
@@ -66,14 +57,12 @@ h1 {
     line-height: 53px;
     padding: 10px 20px;
     line-height: 40px;
-    /* transition: .3s; */
     color: white;
     text-decoration: none;
     transition: color .3s;
 }
 
 .navigation__link:hover {
-    /* color: #ebba83; */
     border-radius: 10px;
     background-color: #523a1f;
 }
@@ -94,28 +83,23 @@ h1 {
     padding-left: 40px;
 }
 
-/* .main-title {
-    display: flex;
-    justify-content: right;
-    padding-right: 200px;
-}
- */
 table {
     width: 100%; /* Ширина таблицы */
     background: white; /* Цвет фона таблицы */
     color: white; /* Цвет текста */
     border-spacing: 1px; /* Расстояние между ячейками */
-   }
+}
+
 td, th {
     background: maroon; /* Цвет фона ячеек */
     padding: 5px; /* Поля вокруг текста */
 
-   }
+}
 
 .footer {
     border: 1px solid black;
     background-color: #523a1f;
-    }
+}
 
 .footer__list{
     display: flex;
@@ -129,7 +113,6 @@ td, th {
     padding: 0 20px;
     line-height: 30px;
     color: white;
-    text-decoration: none;
 }
 
 .profile {
@@ -160,10 +143,18 @@ td, th {
     padding: 0 25px;
 }
 
-.code-examples__items{
+.code-examples__items {
     padding: 0 25px;
 }
 
 blockquote {
     color: maroon;
+}
+
+.contacts__link {
+    color: maroon;
+}
+
+.githublogo {
+    padding: 0px 10px;
 }
