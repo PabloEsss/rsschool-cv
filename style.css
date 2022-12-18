@@ -1,0 +1,160 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", "Poppins", "Inika";
+    min-height: 70vh;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+
+h1 {
+    color: maroon;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+}
+
+h2 {
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.header {
+    border: 1px solid black;
+    background-color: maroon;
+}
+
+.main {
+    border: 1px solid black;
+    background-color: #ebba83;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navigation__link {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 53px;
+    padding: 10px 20px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.navigation__link:hover {
+    border-radius: 10px;
+    background-color: #523a1f;
+}
+
+.section-title::before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 40px;
+    background-color: white;
+}
+
+.section-title {
+    position: relative;
+    background-color: #523a1f;
+    padding-left: 40px;
+}
+
+table {
+    width: 100%; /* Ширина таблицы */
+    background: white; /* Цвет фона таблицы */
+    color: white; /* Цвет текста */
+    border-spacing: 1px; /* Расстояние между ячейками */
+}
+
+td, th {
+    background: maroon; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: #523a1f;
+}
+
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+    
+.footer__link {
+    padding: 0 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.foto {
+    padding-top: 20px;
+}
+
+.contacts__items {
+    padding: 0 25px;
+}
+
+.summary__items {
+    padding: 0 25px;
+}
+
+.code-examples__items {
+    padding: 0 25px;
+}
+
+blockquote {
+    color: maroon;
+}
+
+.contacts__link {
+    color: maroon;
+}
+
+.githublogo {
+    padding: 0px 10px;
+}
