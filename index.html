@@ -4,10 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/rsschool-cv/css/style.css">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/rsschool-cv/style.css">
+    <link rel="shortcut icon" href="/rsschool-cv/assets/fonts/curriculum-vitae-icon-2.ico">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#contacts" class="navigation__link">Contacts</a></li>
+                    <li class="navigation__item"><a href="#about-myself" class="navigation__link">About myself</a></li>
+                    <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
+                    <li class="navigation__item"><a href="#code-examples" class="navigation__link">Code examples</a></li>
+                    <li class="navigation__item"><a href="#education" class="navigation__link">Education</a></li>
+                    <li class="navigation__item"><a href="#language" class="navigation__link">Language</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="profile">
+                    <img src="/rsschool-cv/assets/img/my foto.png" alt="avatar" class="foto">
+                        <div class="textcolumn">  
+                            <h1 class="main-title">Hi, my name is Pavel Shcharbak and I'm a front-end developer</h1>
+                            <p>For the last 5 years, my friends have been trying to persuade me to study to be a programmer. I have all the natural data for this: a mathematical mindset, critical thinking, diligence, work on mistakes. It's time to prove to them that I can!</p>
+                        </div>    
+            </section>
+            <section class="contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                    <div class="contacts__items">
+                        <p><a href="https://discordapp.com/users/790999331578707989/" class="contacts__link">Discord</a></p>
+                        <p><a href="https://www.instagram.com/zametki_illusionista/" class="contacts__link">INSTAGRAM</a></p>
+                        <p>Email: <a href="mailto:shcharbakpavel@gmail.com" class="contacts__link">shcharbakpavel@gmail.com</a></p>
+                    </div>
+            </section>
+            <section class="summary" id="about-myself">
+                <h2 class="section-title">About myself</h2>
+                <div class="summary__items">
+                    <blockquote><p>"Life is what happens when you're busy making other plans" &copy. John Lennon.</p></blockquote>
+                    <p>I am 33 y.o. and most of my life I worked in entertainment industry and I have the best job in the world, but now its time to stop (wtf?) My mom constantly told me to get a real job, and I thought that studying at RSS would be a real challenge for me... </p>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <div class="skills__items">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills__items list">
+                        <li>Cooking</li>
+                        <li>Sleeping</li>
+                        <li>Chilling</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="code-examples" id="code-examples">
+                <h2 class="section-title">Code-example</h2>
+                <div class="code-examples__items">
+                        <code>function multiply(a, b){<br>
+                            return a * b<br>
+                          }<br>
+                          multiply(2,2);<br>
+                        </code>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <div class="education__items">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="education__list">
+                        <li>Civil Engineering 2007 - 2012</li>
+                        <li>Economy in industry 2010 - 2012</li>
+                        <li>Youtube</li>
+                        <li>Rolling scope school 2022 - ...</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="language" id="language">
+                <div class="language__items">
+                    <h2 class="section-title">Language</h2>
+                        <table>
+                            <tr><th>Language</th><th>How long study</th><th>Were applied</th></tr>
+                            <tr><td>Russian</td><td>Since 2 y.o.</td><td>Ordinary life</td></tr>
+                            <tr><td>Belarussian</td><td>After 2020 more...</td><td>In social media</td></tr>
+                            <tr><td>English</td><td>11 years in school + 2 years in University</td><td>When I call to my friends John and Leslie to Wisconsin</td></tr>
+                            <tr><td>Spanish</td><td>5 years in school + >820 days in Duolingo</td><td>When I worked in Venezuela</td></tr>
+                            <tr><td>Polish</td><td>6 month to get Karta Polaka</td><td>In Biedronka</td></tr>
+                            <tr><td>Ukranian</td><td>Every time when I go to Ukraine</td><td>SLAVA UKRAINE!</td></tr>
+                        </table>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="https://github.com/PabloEsss/rsschool-cv" class="footer__link"><img src="/rsschool-cv/assets/fonts/github-logo.svg" class="githublogo" alt="github logo">GitHub</a></li>
+                <li class="footer__item"><p class="footer__link">2022 - ...</p></li>
+                <li class="footer__item"><a href="https://rs.school/js-stage0/" class="footer__rss">
+                    <img src="/rsschool-cv/assets/fonts/rs_school_js.svg" width="100" height="40" alt="Rolling scope school" class="footer__link"></a></li>
+            </ul>
+        </div>
+    </footer>    
 </body>
 </html>
