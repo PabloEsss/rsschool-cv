@@ -1,26 +1,46 @@
-.header {
-    border: 1px solid red;
-    background-color: bisque;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
-.main {
-    border: 1px solid green;
-    background-color: blueviolet;
-}
-
 body {
-    min-height: 90vh;
+    font-size: 1.6rem;
+    font-family: "Roboto", "Poppins", "Inika";
+    min-height: 70vh;
     margin: 0 auto;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     max-width: 1280px;
-    /* background-color: blueviolet;  */
+}
+
+h1 {
+    color: maroon;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+  }
+
+
+  h2 {
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+.header {
+    border: 1px solid black;
+    background-color: maroon;
+}
+
+.main {
+    border: 1px solid black;
+    background-color: #ebba83;
 }
 
 /* .container {
@@ -38,17 +58,24 @@ body {
 }
 
 .navigation__link {
+
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 53px;
     padding: 10px 20px;
     line-height: 40px;
     /* transition: .3s; */
-    color: blueviolet;
+    color: white;
     text-decoration: none;
     transition: color .3s;
 }
 
 .navigation__link:hover {
-    color: aquamarine;
-    background-color: green;
+    /* color: #ebba83; */
+    border-radius: 10px;
+    background-color: #523a1f;
 }
 
 .section-title::before{
@@ -56,14 +83,14 @@ body {
     content: "";
     left: 0px;
     top: 0px;
-    width: 30px;
-    height: 30px;
-    background-color: gold;
+    width: 20px;
+    height: 40px;
+    background-color: white;
 }
 
 .section-title {
     position: relative;
-    background-color: aquamarine;
+    background-color: #523a1f;
     padding-left: 40px;
 }
 
@@ -86,8 +113,8 @@ td, th {
    }
 
 .footer {
-    border: 1px solid blue;
-    background-color: chartreuse;
+    border: 1px solid black;
+    background-color: #523a1f;
     }
 
 .footer__list{
@@ -95,12 +122,13 @@ td, th {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding: 0;
 }
     
 .footer__link {
     padding: 0 20px;
     line-height: 30px;
-    color:darkorange ;
+    color: white;
     text-decoration: none;
 }
 
@@ -117,6 +145,7 @@ td, th {
     justify-content: space-around;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: center;
 }
 
 .foto {
@@ -133,4 +162,8 @@ td, th {
 
 .code-examples__items{
     padding: 0 25px;
+}
+
+blockquote {
+    color: maroon;
 }
