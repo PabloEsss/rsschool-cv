@@ -3,42 +3,44 @@
     background-color: bisque;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .main {
     border: 1px solid green;
+    background-color: blueviolet;
 }
 
 body {
-    min-height: 100vh;
-    margin: 0;
+    min-height: 90vh;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: blueviolet;
+    max-width: 1280px;
+    /* background-color: blueviolet;  */
 }
 
-.container {
+/* .container {
     max-width: 1440px;
     margin: 0 auto;
-}
+} */
 
 .navigation__list {
     display: flex;
     /* justify-content: flex-end; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
 
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 .navigation__link {
-    padding: 0 20px;
-    line-height: 50px;
-    transition: .3s;
+    padding: 10px 20px;
+    line-height: 40px;
+    /* transition: .3s; */
     color: blueviolet;
     text-decoration: none;
     transition: color .3s;
@@ -46,24 +48,31 @@ html {
 
 .navigation__link:hover {
     color: aquamarine;
+    background-color: green;
 }
 
-.navigation__item {
-    padding: 0 10px;
-    /* background-color: red; */
-    list-style: none;
-
+.section-title::before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: gold;
 }
 
 .section-title {
+    position: relative;
     background-color: aquamarine;
+    padding-left: 40px;
 }
 
-.main-title {
+/* .main-title {
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    padding-right: 200px;
 }
-
+ */
 table {
     width: 100%; /* Ширина таблицы */
     background: white; /* Цвет фона таблицы */
@@ -73,6 +82,7 @@ table {
 td, th {
     background: maroon; /* Цвет фона ячеек */
     padding: 5px; /* Поля вокруг текста */
+
    }
 
 .footer {
@@ -92,4 +102,35 @@ td, th {
     line-height: 30px;
     color:darkorange ;
     text-decoration: none;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.foto {
+    padding-top: 20px;
+}
+
+.contacts__items {
+    padding: 0 25px;
+}
+
+.summary__items {
+    padding: 0 25px;
+}
+
+.code-examples__items{
+    padding: 0 25px;
 }
